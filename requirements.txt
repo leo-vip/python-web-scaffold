@@ -1,0 +1,15 @@
+fastapi
+urllib3
+uvicorn
+python-dateutil
+sqlalchemy
+PyMySQL
+pydantic[email]
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]
+cachetools
+requests
+filetype
+natsort
+pydantic
