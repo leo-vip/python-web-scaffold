@@ -1,10 +1,13 @@
-# Scaffold for Python
+# Scaffold for Python(Python web 的脚手架)
 
 默认数据库为: Mysql
 默认web端口: 8086
 
-# Framework
-Python + fastapi(swaggerUI/Openapi.json) + Sqlalchemy
+# Framework Features
+- Python  
+- fastapi(swaggerUI/Openapi.json) 
+- Sqlalchemy(默认mysql)
+- 自动建表 
 
 ## 用的到的地址
 - swagger 文档地址：http://127.0.0.1:8086/docs
@@ -15,10 +18,9 @@ Python + fastapi(swaggerUI/Openapi.json) + Sqlalchemy
 > /static
 
 # Users
+
 ```sql
-
 grant all privileges on *.* to words@"%" identified by "89759e1284e2479b991d2669de104942" with grant option;
-
 flush privileges;
 ```
 
