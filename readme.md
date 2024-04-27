@@ -1,5 +1,7 @@
-# Template for Python
+# Scaffold for Python
 
+默认数据库为: Mysql
+默认web端口: 8086
 
 # Framework
 Python + fastapi(swaggerUI/Openapi.json) + Sqlalchemy
@@ -20,7 +22,8 @@ grant all privileges on *.* to words@"%" identified by "89759e1284e2479b991d2669
 flush privileges;
 ```
 
-# Usage
+# Usage Demo for user
+
 ```
 # 0. 打开浏览器地址 http://127.0.0.1:8086/docs
  
@@ -36,6 +39,14 @@ flush privileges;
 # 3. 接口查询用户信息。  auth/create_user
 默认使用token。
 
+```
 
- 
+# 工程结构介绍
+```
+core
+    models   -- 数据库表模型
+    schemas  -- web接口结构
+routes -- web路由
+configuration.py -- 配置
+main.py -- 入口
 ```
